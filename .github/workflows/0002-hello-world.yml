@@ -1,0 +1,17 @@
+name: hello-world-0002
+'on': push
+jobs:
+  job-0001:
+    runs-on: ubuntu-latest
+    steps:
+      - name: step-0001
+        run: echo "Hello World step-0001"
+      - name: step-0002
+        run: echo "Hello World step-0002"
+  job-0002:
+    runs-on: ubuntu-latest
+    steps:
+      - name: step-0003
+        run: echo "Hello World step-0003"
+      - name: step-0004
+        run: echo "Hello World step-0004"
